@@ -1,0 +1,65 @@
+.container{
+    width: 60%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.sponsor{
+    display: flex;
+    gap: 2rem;
+}
+
+.icons{
+    display: flex;
+}
+
+.iconImage{
+    width: 30%;
+}
+
+.iconImage img{
+    width: 100%;
+}
+
+.iconText{
+    width: 85%;
+}
+
+.iconText h5{
+font-family: Lato;
+font-size: 8px;
+font-weight: 700;
+line-height: 9.6px;
+margin: auto;
+align-items: center;
+}
+
+.sponsor{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 3rem;
+    box-shadow: -4px -4px 0px #0E39970D;
+    bottom: 0px 4px 4px 0px #0E39970D;
+    border-radius: 5px;
+    border: 2px solid #0E39970D ;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.sponsor2{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.container p{
+font-family: Lato;
+font-size: 12px;
+font-weight: 300;
+line-height: 14.4px;
+text-align: center;
+padding-top: 1rem;
+}

@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+}
+
+.innerContainer{
+    width: 100%;
+    background-image: url(../../Assests/Heroback.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 14rem;
+}
+
+.hero{
+    width: 45%;
+    float: right;
+    margin-right: 3.5rem;
+}
+
+.hero h2{
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 1rem;
+
+}
+
+.hero p{
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 33.6px;
+    color: white;
+   width: 75%;
+}
+
+.heroImage{
+    margin-bottom: 3rem;
+}
+
+.line img{
+    width: 100%;
+}

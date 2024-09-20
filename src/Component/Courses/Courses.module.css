@@ -1,0 +1,89 @@
+.container{
+    width: 100%;
+    background-color: #0E3997;
+    background-image: url(../../Assests/CourseBack.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.innerContainer{
+    width: 80%;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.topCourses{
+    text-align: center;
+}
+
+.topCourses h3{
+font-family: Lato;
+font-size: 33px;
+font-weight: 600;
+/* line-height: 38.09px; */
+color:  #FFFFFF;
+
+}
+
+.topCourses p{
+    font-family: Lato;
+font-size: 23px;
+font-weight: 500;
+line-height: 26.55px;
+color:  #FFFFFF;
+padding: 1rem 0;
+}
+
+.topCourses hr{
+    width: 15%;
+    margin: auto;
+    border: 1px solid #FFFFFF ;
+   
+}
+
+.btn button{
+    padding: 0.7rem 3rem;
+    margin: 23px 2px;
+    border-radius: 5px 0px 0px 5px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    line-height: 23.09px;
+    background-color: #FFFFFF;
+    color:rgba(14,57, 151,1)
+}
+
+.btn button:first-child{
+    border-radius: 5px 0 0 5px;
+}
+
+.btn button:last-child{
+    border-radius: 0px 5px 5px 0;
+}
+
+.btn button:hover{
+    background-color: #96DAED;
+    color: white;
+}
+
+.cardWrap{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin:auto;
+}
+
+.butt button{
+    padding: 0.5rem 1rem;
+    border: 1px solid white;
+    background: none;
+    cursor:pointer;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin: 5rem 0 0;
+}
