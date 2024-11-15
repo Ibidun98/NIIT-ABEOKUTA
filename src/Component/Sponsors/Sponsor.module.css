@@ -63,3 +63,20 @@ line-height: 14.4px;
 text-align: center;
 padding-top: 1rem;
 }
+
+@media screen and (max-width: 768px){
+    .sponsor{
+        display: flex;
+        flex-direction: column;
+        padding:1rem; 
+    }
+
+    
+    .sponsor2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+
+}

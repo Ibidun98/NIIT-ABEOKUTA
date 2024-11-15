@@ -58,3 +58,34 @@ width: 100%;
 .clientImage img{
     width: 100%;
 }
+
+@media screen and (max-width:1024px){
+    .wrap{
+        width: 65%;
+    }
+
+    .testimonySlide p{
+        width: 97%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .innerContainer h2{
+       margin-bottom: 2rem;
+    } 
+
+    .testimonySlide p{
+        width: 100%;
+        margin: auto;
+    }
+
+    .wrap{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+       
+        width: 95%;
+    }
+
+
+}

@@ -3,6 +3,7 @@ import classes from "./AboutHome.module.css";
 import Logo from "../../Assests/Logo.png";
 import student from "../../Assests/AboutImage.png";
 import Background from "../../Assests/backImage.png";
+import {Link} from "react-router-dom";
 
 const AboutHome = () => {
   return (
@@ -19,7 +20,9 @@ const AboutHome = () => {
         <p>NIIT is a leading Skills and Talent Development Corporation that is building 
           a manpower pool for global industry requirements.</p>
         <p>The company, which was set up in 1981 to help the nascent IT industry overcome its human resource challenges, today ranks among the world's leading training companies owing to its vast and comprehensive array of talent development programs.</p>
-        <button>Learn More</button>
+        <Link to="/aboutus">
+           <button>Learn More</button>
+            </Link>
         </div>
 
         <div className={classes.aboutImage}>

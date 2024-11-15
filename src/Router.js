@@ -18,22 +18,22 @@ const Router = () => {
         },
 
         {
-            path: "/Courses",
+            path: "/courses",
             element: <Courses />,
         },
 
         {
-            path: "/Contact us",
+            path: "/contactus",
             element: <Contact />,
         },
 
         {
-            path: "/About us",
+            path: "/aboutus",
             element: <About />,
         },
 
         {
-            path: "/Register",
+            path: "/register",
             element: <Register/>,
         },
 

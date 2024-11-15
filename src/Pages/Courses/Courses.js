@@ -1,8 +1,11 @@
 import React from 'react'
+import TProps from "../../Component/TextProps/TextProps";
 
 const Courses = () => {
   return (
-    <div>Courses</div>
+    <div>
+     < TProps/>
+    </div>
   )
 }
 

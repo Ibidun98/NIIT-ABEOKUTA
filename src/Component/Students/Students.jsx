@@ -1,6 +1,7 @@
 import React from 'react'
 import classes from "./Students.module.css";
 import Student from "../../Assests/Register.png";
+import {Link} from "react-router-dom";
 
 const Students = () => {
   return (
@@ -47,7 +48,9 @@ const Students = () => {
                 </div>
             </div>
             < div className={classes.studentButton}>
-            <button>Register</button>
+            <Link to="/register">
+                <button>Register Now</button>
+                </Link>
             </div>
         </div>
     </div>
